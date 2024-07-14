@@ -30,6 +30,8 @@ img{
 .navbar-right{
     padding-left: 20px;
     display: flex;
+    background-color: rgb(18, 184, 0);
+    border-radius: 190px;
     flex-direction: row; 
     align-items: center;
 }
@@ -100,7 +102,7 @@ img{
     border: 2px rgb(94, 202, 94) solid;
     margin:20px;
     padding:20px;
-    width:400px;
+    width:290px;
     border-radius: 90px;
     cursor: pointer;
 }
@@ -127,4 +129,40 @@ img{
     width: 60px;
     border-radius: 10px;
     padding: 20px;
+}
+#webhover:hover{
+    background-color: rgb(179, 86, 86);
+}
+#webpara:hover{
+    background-color: rgb(201, 198, 23);
+}
+.Programming-Language{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 150px;
+    text-align: center;
+}
+.web-design{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: green;
+    margin-left: 200px;
+    margin-right: 50px;
+    text-align: center;
+}
+.web-design-sub{
+    border-color:green;
+}
+.Placement{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border-color: green;
+    margin-left: 200px;
+    margin-right: 50px;
+    text-align: center;
+}
+hr{
+    margin-left: 90px;
+    margin-right: 90px;
 }
