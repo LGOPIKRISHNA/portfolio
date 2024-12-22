@@ -116,3 +116,28 @@ hr {
     background-color: #ddd;
     margin: 0;
 }
+.projects-container, .skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card, .skill-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.project-title, .skill-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-description, .skill-card p {
+    font-size: 14px;
+    color: #777;
+}
+
